@@ -27,8 +27,8 @@ config = {
     'retriever-model': os.path.join(drqa_data_directory, 'wikipedia', 'docs-tfidf-ngram=2-hash=16777216-tokenizer=simple.npz'),
     'doc-db': os.path.join(drqa_data_directory, 'wikipedia', 'docs.db'),
     'embedding-file': None,
-    'tokenizer': 'spacy',
-    'no-cuda': True,
+    'tokenizer': 'regexp',
+    'no-cuda': False,
     'gpu': 0
 }
 
